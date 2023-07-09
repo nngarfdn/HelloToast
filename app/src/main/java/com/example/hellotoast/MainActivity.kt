@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         with(binding){
             txtNumber.text = number.toString()
             btnCount.setOnClickListener {
+                //increment number and set txtNumber
                 number++
                 txtNumber.text = number.toString()
             }
